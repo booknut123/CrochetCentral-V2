@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E36660524D1D9F000B2D3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36660424D1D9F000B2D3C4 /* AppDelegate.swift */; };
+		2E36660724D1D9F000B2D3C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36660624D1D9F000B2D3C4 /* SceneDelegate.swift */; };
+		2E36660924D1D9F000B2D3C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36660824D1D9F000B2D3C4 /* ViewController.swift */; };
+		2E36660C24D1D9F000B2D3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E36660A24D1D9F000B2D3C4 /* Main.storyboard */; };
+		2E36660F24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E36660D24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodeld */; };
+		2E36661124D1D9F100B2D3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E36661024D1D9F100B2D3C4 /* Assets.xcassets */; };
+		2E36661424D1D9F100B2D3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E36661224D1D9F100B2D3C4 /* LaunchScreen.storyboard */; };
+		2E4DCE7424D3650300EC6C82 /* Moss2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE7324D3650300EC6C82 /* Moss2ViewController.swift */; };
+		2E4DCE7624D3653F00EC6C82 /* Circle2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE7524D3653F00EC6C82 /* Circle2ViewController.swift */; };
+		2E4DCE7824D3657B00EC6C82 /* Shell2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE7724D3657B00EC6C82 /* Shell2ViewController.swift */; };
+		2E4DCE7A24D365A400EC6C82 /* Window1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE7924D365A400EC6C82 /* Window1ViewController.swift */; };
+		2E4DCE7C24D365B000EC6C82 /* Window2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE7B24D365B000EC6C82 /* Window2ViewController.swift */; };
+		2E4DCE7E24D365C900EC6C82 /* Crocodile1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE7D24D365C900EC6C82 /* Crocodile1ViewController.swift */; };
+		2E4DCE8024D365D000EC6C82 /* Crocodile2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE7F24D365D000EC6C82 /* Crocodile2ViewController.swift */; };
+		2E4DCE8224D365F200EC6C82 /* Waffle1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE8124D365F200EC6C82 /* Waffle1ViewController.swift */; };
+		2E4DCE8424D365F900EC6C82 /* Waffle2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4DCE8324D365F900EC6C82 /* Waffle2ViewController.swift */; };
+		2E6ADE6B24D2113900455BBA /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ADE6A24D2113900455BBA /* PatternsViewController.swift */; };
+		2E6ADE6D24D211B100455BBA /* BeginnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ADE6C24D211B100455BBA /* BeginnerViewController.swift */; };
+		2E6ADE6F24D2121300455BBA /* IntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ADE6E24D2121300455BBA /* IntermediateViewController.swift */; };
+		2E6ADE7124D2123C00455BBA /* AdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ADE7024D2123C00455BBA /* AdvancedViewController.swift */; };
+		BCAF92D724D1FB1000D32AB1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92D624D1FB1000D32AB1 /* MenuViewController.swift */; };
+		BCAF92D924D1FD9C00D32AB1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92D824D1FD9C00D32AB1 /* IntroViewController.swift */; };
+		BCAF92DB24D2009400D32AB1 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92DA24D2009400D32AB1 /* LearnViewController.swift */; };
+		BCAF92DD24D2238400D32AB1 /* Moss1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92DC24D2238400D32AB1 /* Moss1ViewController.swift */; };
+		BCAF92DF24D225A300D32AB1 /* Circle1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92DE24D225A300D32AB1 /* Circle1ViewController.swift */; };
+		BCAF92E124D227CB00D32AB1 /* Shell1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92E024D227CB00D32AB1 /* Shell1ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E36660124D1D9F000B2D3C4 /* Crochet Central.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crochet Central.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E36660424D1D9F000B2D3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E36660624D1D9F000B2D3C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E36660824D1D9F000B2D3C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E36660B24D1D9F000B2D3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E36660E24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Crafting_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		2E36661024D1D9F100B2D3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E36661324D1D9F100B2D3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E36661524D1D9F100B2D3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4DCE7324D3650300EC6C82 /* Moss2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moss2ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE7524D3653F00EC6C82 /* Circle2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle2ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE7724D3657B00EC6C82 /* Shell2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell2ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE7924D365A400EC6C82 /* Window1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window1ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE7B24D365B000EC6C82 /* Window2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window2ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE7D24D365C900EC6C82 /* Crocodile1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crocodile1ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE7F24D365D000EC6C82 /* Crocodile2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crocodile2ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE8124D365F200EC6C82 /* Waffle1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waffle1ViewController.swift; sourceTree = "<group>"; };
+		2E4DCE8324D365F900EC6C82 /* Waffle2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waffle2ViewController.swift; sourceTree = "<group>"; };
+		2E6ADE6A24D2113900455BBA /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
+		2E6ADE6C24D211B100455BBA /* BeginnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerViewController.swift; sourceTree = "<group>"; };
+		2E6ADE6E24D2121300455BBA /* IntermediateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateViewController.swift; sourceTree = "<group>"; };
+		2E6ADE7024D2123C00455BBA /* AdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewController.swift; sourceTree = "<group>"; };
+		BCAF92D624D1FB1000D32AB1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BCAF92D824D1FD9C00D32AB1 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		BCAF92DA24D2009400D32AB1 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		BCAF92DC24D2238400D32AB1 /* Moss1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moss1ViewController.swift; sourceTree = "<group>"; };
+		BCAF92DE24D225A300D32AB1 /* Circle1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle1ViewController.swift; sourceTree = "<group>"; };
+		BCAF92E024D227CB00D32AB1 /* Shell1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell1ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3665FE24D1D9F000B2D3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3665F824D1D9F000B2D3C4 = {
+			isa = PBXGroup;
+			children = (
+				2E36660324D1D9F000B2D3C4 /* The Crafting Calculator */,
+				2E36660224D1D9F000B2D3C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E36660224D1D9F000B2D3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E36660124D1D9F000B2D3C4 /* Crochet Central.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E36660324D1D9F000B2D3C4 /* The Crafting Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				2E36660424D1D9F000B2D3C4 /* AppDelegate.swift */,
+				2E36660624D1D9F000B2D3C4 /* SceneDelegate.swift */,
+				2E36661224D1D9F100B2D3C4 /* LaunchScreen.storyboard */,
+				2E36660A24D1D9F000B2D3C4 /* Main.storyboard */,
+				2E36660824D1D9F000B2D3C4 /* ViewController.swift */,
+				BCAF92D624D1FB1000D32AB1 /* MenuViewController.swift */,
+				BCAF92D824D1FD9C00D32AB1 /* IntroViewController.swift */,
+				BCAF92DA24D2009400D32AB1 /* LearnViewController.swift */,
+				2E6ADE6A24D2113900455BBA /* PatternsViewController.swift */,
+				2E6ADE6C24D211B100455BBA /* BeginnerViewController.swift */,
+				2E6ADE6E24D2121300455BBA /* IntermediateViewController.swift */,
+				2E6ADE7024D2123C00455BBA /* AdvancedViewController.swift */,
+				BCAF92DC24D2238400D32AB1 /* Moss1ViewController.swift */,
+				2E4DCE7324D3650300EC6C82 /* Moss2ViewController.swift */,
+				BCAF92DE24D225A300D32AB1 /* Circle1ViewController.swift */,
+				2E4DCE7524D3653F00EC6C82 /* Circle2ViewController.swift */,
+				BCAF92E024D227CB00D32AB1 /* Shell1ViewController.swift */,
+				2E4DCE7724D3657B00EC6C82 /* Shell2ViewController.swift */,
+				2E4DCE7924D365A400EC6C82 /* Window1ViewController.swift */,
+				2E4DCE7B24D365B000EC6C82 /* Window2ViewController.swift */,
+				2E4DCE7D24D365C900EC6C82 /* Crocodile1ViewController.swift */,
+				2E4DCE7F24D365D000EC6C82 /* Crocodile2ViewController.swift */,
+				2E4DCE8124D365F200EC6C82 /* Waffle1ViewController.swift */,
+				2E4DCE8324D365F900EC6C82 /* Waffle2ViewController.swift */,
+				2E36661024D1D9F100B2D3C4 /* Assets.xcassets */,
+				2E36661524D1D9F100B2D3C4 /* Info.plist */,
+				2E36660D24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodeld */,
+			);
+			path = "The Crafting Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E36660024D1D9F000B2D3C4 /* Crochet Central */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E36661824D1D9F100B2D3C4 /* Build configuration list for PBXNativeTarget "Crochet Central" */;
+			buildPhases = (
+				2E3665FD24D1D9F000B2D3C4 /* Sources */,
+				2E3665FE24D1D9F000B2D3C4 /* Frameworks */,
+				2E3665FF24D1D9F000B2D3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crochet Central";
+			productName = "The Crafting Calculator";
+			productReference = 2E36660124D1D9F000B2D3C4 /* Crochet Central.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3665F924D1D9F000B2D3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Kailyn Lau";
+				TargetAttributes = {
+					2E36660024D1D9F000B2D3C4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 2E3665FC24D1D9F000B2D3C4 /* Build configuration list for PBXProject "Crochet Central" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3665F824D1D9F000B2D3C4;
+			productRefGroup = 2E36660224D1D9F000B2D3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E36660024D1D9F000B2D3C4 /* Crochet Central */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3665FF24D1D9F000B2D3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E36661424D1D9F100B2D3C4 /* LaunchScreen.storyboard in Resources */,
+				2E36661124D1D9F100B2D3C4 /* Assets.xcassets in Resources */,
+				2E36660C24D1D9F000B2D3C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3665FD24D1D9F000B2D3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E36660924D1D9F000B2D3C4 /* ViewController.swift in Sources */,
+				BCAF92E124D227CB00D32AB1 /* Shell1ViewController.swift in Sources */,
+				2E6ADE7124D2123C00455BBA /* AdvancedViewController.swift in Sources */,
+				2E4DCE7824D3657B00EC6C82 /* Shell2ViewController.swift in Sources */,
+				BCAF92DF24D225A300D32AB1 /* Circle1ViewController.swift in Sources */,
+				2E6ADE6D24D211B100455BBA /* BeginnerViewController.swift in Sources */,
+				2E4DCE8424D365F900EC6C82 /* Waffle2ViewController.swift in Sources */,
+				2E36660524D1D9F000B2D3C4 /* AppDelegate.swift in Sources */,
+				2E36660724D1D9F000B2D3C4 /* SceneDelegate.swift in Sources */,
+				2E4DCE7A24D365A400EC6C82 /* Window1ViewController.swift in Sources */,
+				2E4DCE7E24D365C900EC6C82 /* Crocodile1ViewController.swift in Sources */,
+				BCAF92DB24D2009400D32AB1 /* LearnViewController.swift in Sources */,
+				2E6ADE6F24D2121300455BBA /* IntermediateViewController.swift in Sources */,
+				2E4DCE7624D3653F00EC6C82 /* Circle2ViewController.swift in Sources */,
+				2E4DCE7C24D365B000EC6C82 /* Window2ViewController.swift in Sources */,
+				2E4DCE7424D3650300EC6C82 /* Moss2ViewController.swift in Sources */,
+				BCAF92DD24D2238400D32AB1 /* Moss1ViewController.swift in Sources */,
+				BCAF92D924D1FD9C00D32AB1 /* IntroViewController.swift in Sources */,
+				2E4DCE8224D365F200EC6C82 /* Waffle1ViewController.swift in Sources */,
+				2E4DCE8024D365D000EC6C82 /* Crocodile2ViewController.swift in Sources */,
+				2E36660F24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodeld in Sources */,
+				BCAF92D724D1FB1000D32AB1 /* MenuViewController.swift in Sources */,
+				2E6ADE6B24D2113900455BBA /* PatternsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E36660A24D1D9F000B2D3C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E36660B24D1D9F000B2D3C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E36661224D1D9F100B2D3C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E36661324D1D9F100B2D3C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E36661624D1D9F100B2D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E36661724D1D9F100B2D3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E36661924D1D9F100B2D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5FUGG76HC;
+				INFOPLIST_FILE = "The Crafting Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kml.Crochet-Central";
+				PRODUCT_NAME = "Crochet Central";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E36661A24D1D9F100B2D3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5FUGG76HC;
+				INFOPLIST_FILE = "The Crafting Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kml.Crochet-Central";
+				PRODUCT_NAME = "Crochet Central";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3665FC24D1D9F000B2D3C4 /* Build configuration list for PBXProject "Crochet Central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E36661624D1D9F100B2D3C4 /* Debug */,
+				2E36661724D1D9F100B2D3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E36661824D1D9F100B2D3C4 /* Build configuration list for PBXNativeTarget "Crochet Central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E36661924D1D9F100B2D3C4 /* Debug */,
+				2E36661A24D1D9F100B2D3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E36660D24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E36660E24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodel */,
+			);
+			currentVersion = 2E36660E24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodel */;
+			path = The_Crafting_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E3665F924D1D9F000B2D3C4 /* Project object */;
+}
